@@ -1,0 +1,32 @@
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.square{
+    background-color: rgb(110, 108, 108);
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url('img/mole2.jpg');
+    background-size: cover;
+
+}
